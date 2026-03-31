@@ -7,8 +7,67 @@
 <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file if you have one-->
 </head>
 <body>
-<h1>This is the index page</h1>
-<style></style>
-<script></script> 
+<h1>City Fox</h1>
+<p>By Ruth Fainlight, page by Olivia Bynum</p>
+
+
+<br>
+<br>
+
+<p>Click the Text to Reveal the Poem!!!</p>
+
+<br>
+<br>
+
+<p onclick="cityFoxNote1()">
+It makes me glad to watch a fox
+cross the road as I drive at night
+through the city after a party.</p>
+<p id="fox1"> ???</p>
+
+<p onclick="cityFoxNote2()">
+Her confident pose as she trots toward
+a black plastic garbage bag, and
+notice that she or another fox
+has been there already: kitchen waste
+and peelings strewn across the pavement.
+</p>
+<p id="fox2"> ???</p>
+
+<p onclick="cityFoxNote3()">What’s there:</p>
+<p id="fox3"> ???</p>
+
+<p onclick="cityFoxNote4()">Hopeful,
+she goes in search of another cache.
+Is this a first sign of social
+breakdown, nature dominating
+the city’s infrastructure?</p>
+<p id="fox4"> ???</p>
+
+<p onclick="cityFoxNote5()">Although
+maybe he is. He certainly did
+not look both ways before crossing
+the road, nor take in how close that car,
+turning the corner, came to him.</p>
+<p id="fox5"> ???</p>
+
+<script>
+function cityFoxNote1(){
+    document.getElementById("fox1").textContent = "I admire how much she seems at home,";
+}
+function cityFoxNote2(){
+    document.getElementById("fox2").textContent = "She noses through-";
+}
+function cityFoxNote3(){
+    document.getElementById("fox3").textContent = "Empty beer cans, cartons stained with sauces, but nothing’s tempting enough.";
+}
+function cityFoxNote4(){
+    document.getElementById("fox4").textContent = "Yet surely that fluffy-haired cub I saw a few minutes later could not be a harbinger of anarchy?";
+}
+function cityFoxNote5(){
+    document.getElementById("fox5").textContent = "For the moment, though, everything works as usual, and I assume that they, like me, got safely home.";
+}
+</script>
+
 </body>
 </html>
