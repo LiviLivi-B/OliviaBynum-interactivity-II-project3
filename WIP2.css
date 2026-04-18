@@ -1,11 +1,4 @@
-body {
-  background-image: url("WIP2 Assets/skyboxes_18.png");
-  background-repeat: no-repeat;
-  background-size: 100%; /* Ensures the image covers the entire container */
-  background-position: 100%; /* Centers the image within the container */
-  background-attachment: fixed; /* Keeps the image fixed while scrolling */
-  color: white;
-}
+
 
 button {
     
@@ -18,13 +11,17 @@ button {
 grid-template-columns: auto auto auto;
 }
 
-dialog{
-    background-image: url("hiDialog.png");
-}
+.input {
+    width: 300px;
+    height: 40px;
+    font-size: 20px; 
+    padding: 10px; 
+  }
 
 .item:hover
 {
     transform: scale(1.5);
     margin-right: 10px;
     margin-left: 10px;
+    
 }

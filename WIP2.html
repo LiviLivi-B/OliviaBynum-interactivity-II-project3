@@ -6,7 +6,7 @@
 <title>Index</title>
 <link rel="stylesheet" href="WIP2.css"> <!-- Link to external CSS file if you have one-->
 </head>
-<body onload="myFunction()">
+<body>
 
 <audio id="mainMusic" autoplay loop>
   <source src="WIP2 Assets/Wii OST - Forecast Channel - Local Forecast (Daytime).flac" type="audio/mpeg" >
@@ -26,15 +26,25 @@
 <img style="position: absolute; left: 49%; top: 55%; size: width: 10%; height: 10%;" class="container item" onclick="document.getElementById('starSound').play()" src="WIP2 Assets/galaxstarwip1.png" alt="">
 
 <audio id="messageSound" src="WIP2 Assets/Brawlcancel.wav"></audio>
-<img style="position: absolute; left: 45%; top: 10%;" class="container item" onclick="document.getElementById('messageSound').play()" src="WIP2 Assets/messageBoardIcon.png" alt="">
+<a href="WIP2message.html" target="_blank"><img style="position: absolute; left: 45%; top: 10%;" class="container item" onclick="document.getElementById('messageSound').play()" src="WIP2 Assets/messageBoardIcon.png" alt=""</a>
+
 </div>
 
-<style></style>
+<style>
+  body {
+  background-image: url("WIP2 Assets/skyboxes_18.png");
+  background-repeat: no-repeat;
+  background-size: 100%; /* Ensures the image covers the entire container */
+  background-position: 100%; /* Centers the image within the container */
+  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  color: white;
+}
+</style>
 
 <script>
 
-var audio = document.getElementById("mainMusic"); audio.volume = 0.3;
 var audio = document.getElementById("starSound"); audio.volume = 0.5;
+var audio = document.getElementById("globeSound"); audio.volume = 0.5;
 </script> 
 
 </body>
