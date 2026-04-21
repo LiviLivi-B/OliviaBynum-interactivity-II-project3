@@ -1,4 +1,6 @@
-
+body{
+  
+}
 
 button {
     
@@ -10,6 +12,13 @@ button {
   display: inline-block
 grid-template-columns: auto auto auto;
 }
+
+.gallery{display: inline-block; border: 10px solid #07554300; margin: 10px; width: 350px;}
+.gallery .gallerytext{padding: 10px; text-align: center; background-color: white;}
+.gallery:hover{border: 10px solid #ffffff;}
+.gallerytext:hover{color: #ff0011;}
+.gallery img{width: 100%; height: auto;}
+.gallery video{width: 100%; height: auto;}
 
 .input {
     width: 300px;

@@ -13,20 +13,22 @@
   Your browser does not support the audio element.
 </audio>
 
-<h1 class="center">Insert Title Here</h1>
-
+<h1 class="center">Welcome to CloudSphere . Net!</h1>
+<br><br><br><br>
+<p class="center">Your very limited source of Frutiger Aero insperation. Feel free to click around and melt back into the 2000's/ early 2010's!</p>
+<br><br><br><br><br>
 <div>
 <audio id="warningSound" src="WIP2 Assets/MarioGalaxyBatCrit.wav"></audio>
-<img style="position: absolute; left: 35%; top: 25%; size: width: 20%; height: 20%;" class="container item" onclick="document.getElementById('warningSound').play()" src="WIP2 Assets/windowsVistaWarning.png" alt="">
+<img style="position: absolute; left: 35%; top: 35%; size: width: 20%; height: 20%;" class="container item" onclick="document.getElementById('warningSound').play()" src="WIP2 Assets/windowsVistaWarning.png" alt="">
 
 <audio id="globeSound" src="WIP2 Assets/2-01. Photo Channel Banner.mp3"></audio>
-<img style="position: absolute; left: 55%; top: 25%; size: width: 20%; height: 20%;" class="container item" onclick="document.getElementById('globeSound').play()" src="WIP2 Assets/netCenterGlobe.png" alt="">
+ <a href="WIP2globe.html" target="_blank"> <img style="position: absolute; left: 55%; top: 35%; size: width: 20%; height: 20%;" class="container item" onclick="document.getElementById('globeSound').play()" src="WIP2 Assets/netCenterGlobe.png" alt=""></a>
 
 <audio id="starSound" src="WIP2 Assets/61. Collection Get!.mp3"></audio>
-<img style="position: absolute; left: 49%; top: 55%; size: width: 10%; height: 10%;" class="container item" onclick="document.getElementById('starSound').play()" src="WIP2 Assets/galaxstarwip1.png" alt="">
+<img style="position: absolute; left: 49%; top: 60%; size: width: 10%; height: 10%;" class="container item" onclick="document.getElementById('starSound').play()" src="WIP2 Assets/galaxstarwip1.png" alt="">
 
 <audio id="messageSound" src="WIP2 Assets/Brawlcancel.wav"></audio>
-<a href="WIP2message.html" target="_blank"><img style="position: absolute; left: 45%; top: 10%;" class="container item" onclick="document.getElementById('messageSound').play()" src="WIP2 Assets/messageBoardIcon.png" alt=""</a>
+<a href="WIP2message.html" target="_blank"><img style="position: absolute; left: 45%; top: 20%;" class="container item" onclick="document.getElementById('messageSound').play()" src="WIP2 Assets/messageBoardIcon.png" alt=""</a>
 
 </div>
 
@@ -34,11 +36,19 @@
   body {
   background-image: url("WIP2 Assets/skyboxes_18.png");
   background-repeat: no-repeat;
-  background-size: 100%; /* Ensures the image covers the entire container */
-  background-position: 100%; /* Centers the image within the container */
-  background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  background-size: 100%; 
+  background-position: 100%; 
+  background-attachment: fixed;
   color: white;
 }
+
+.fade-in {
+    animation: fadeIn 5s; 
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }}
 </style>
 
 <script>
