@@ -20,6 +20,13 @@ grid-template-columns: auto auto auto;
 .gallery img{width: 100%; height: auto;}
 .gallery video{width: 100%; height: auto;}
 
+h1{
+.roboto-mono-<uniquifier> {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}}
 .input {
     width: 300px;
     height: 40px;
@@ -34,3 +41,30 @@ grid-template-columns: auto auto auto;
     margin-left: 10px;
     
 }
+
+li{
+  color: white;
+  background-image: url('WIP2 Assets/skyboxes_18.png');
+  background-size: 100%; 
+  background-position: 100%; 
+  background-attachment: fixed;
+  color: white;
+}
+
+li:hover{
+  color: #ff0011;
+}
+
+link{
+  color: #ffffff;
+}
+
+p{
+.roboto-mono{
+  font-family: "Roboto Mono", monospace;
+}}
+
+.spin{{animation: spinny 1s infinite;}
+@keyframes spinny {0% {rotate: 0deg;} 100% {rotate: 360deg;}}
+}
+
